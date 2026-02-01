@@ -9,7 +9,7 @@ export default function Hero() {
         <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-black">
 
             {/* Laser Flow Background - Responsive positioning */}
-            <div className="absolute inset-0 md:inset-5 z-10 md:top-5 -top-32">
+            <div className="absolute inset-0 md:inset-5 z-10 md:top-4 -top-40">
                 <LaserFlow
                     horizontalBeamOffset={0.9}
                     verticalBeamOffset={0.46}
@@ -39,7 +39,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="w-full flex justify-center"
                 >
-                    <h1 className="text-[12vw] md:text-[8rem] lg:text-[10rem] font-display font-bold tracking-tighter leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-white/80 to-white/20 select-none drop-shadow-3xl">
+                    <h1 className="text-[10vw] md:text-[8rem] lg:text-[10rem] font-display font-bold tracking-tighter leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-white/80 to-white/20 select-none drop-shadow-3xl">
                         <strong>NativeCode</strong>
                     </h1>
                 </motion.div>
@@ -82,7 +82,7 @@ export default function Hero() {
                 </motion.div>
 
             </div>
-
+                <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-black to-transparent pointer-events-none z-20" />
         </section>
     );
 }

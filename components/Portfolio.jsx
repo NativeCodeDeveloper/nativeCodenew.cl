@@ -4,42 +4,46 @@ import { cn } from "@/lib/utils";
 
 const projects = [
     {
-        date: "JANUARY 28, 2026",
-        title: "EcoSmart Landing Platform",
-        description: "A high-performance web platform focused on sustainable energy data visualization and real-time monitoring.",
+        date: "ABRIL 01, 2025",
+        title: "RUNA JOYAS E-commerce Platform",
+        description: "Plataforma de comercio electrónico para la venta de joyas artesanales con integración de pasarelas de pago y gestión de inventario.",
         tag: "WEB DEVELOPMENT",
-        image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1000",
-        link: "#"
+        image: "images/runa2.png",
+        link: "https://www.runajoyas.cl"
     },
     {
-        date: "JANUARY 15, 2026",
-        title: "Quantum Finance App",
-        description: "Native mobile application for advanced algorithmic trading and portfolio management with biometric security.",
-        tag: "MOBILE APP",
-        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1000",
-        link: "#"
+        date: "AGOSTO 22, 2025",
+        title: "MACAR REPUESTOS",
+        description: "Plataforma destinada a la venta de repuestos automotrices de alta calidad con catálogo en línea y opciones de envío.",
+        tag: "WEB DEVELOPMENT",
+        image: "images/macar.png",
+        link: "https://www.repuestosmacar.cl"
     },
     {
-        date: "JANUARY 15, 2026",
-        title: "Quantum Finance App",
-        description: "Native mobile application for advanced algorithmic trading and portfolio management with biometric security.",
-        tag: "MOBILE APP",
-        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1000",
-        link: "#"
+        date: "NOVIEMBRE 10, 2025",
+        title: "MEDIFY CLINIC",
+        description: "Ecosistema diseñado para la gestión integral de profesionales de la salud con funcionalidades de citas, historial médico y facturación.",
+        tag: "ECOSYSTEM",
+        image: "images/medify.png",
+        link: "https://www.medifyclinic.cl"
     },
     {
-        date: "JANUARY 15, 2026",
-        title: "Quantum Finance App",
-        description: "Native mobile application for advanced algorithmic trading and portfolio management with biometric security.",
-        tag: "MOBILE APP",
-        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1000",
-        link: "#"
+        date: "ENERO 15, 2026",
+        title: "SUPLETECH",
+        description: "Plataforma diseñada para escalar las ventas de suplementos deportivos.",
+        tag: "WEB DEVELOPMENT",
+        image: "images/suple.png",
+        link: "https://supletech-fronend.vercel.app"
     }
 ];
 
 export default function Portfolio() {
     return (
-        <section className="bg-black py-24 border-t border-[rgba(31,34,40)]">
+        <section className="bg-black py-24 border-t border-[rgba(31,34,40)] relative">
+            
+            {/* Top Fade from Black */}
+            <div className="absolute top-0 left-0 right-0 h-32 bg-linear-to-b from-black to-transparent pointer-events-none z-10" />
+            
             <div className="max-w-7xl mx-auto px-6 space-y-24">
 
                 {projects.map((project, index) => (
@@ -76,11 +80,11 @@ export default function Portfolio() {
                             </div>
 
                             {/* Image Column */}
-                            <div className="relative aspect-[16/9] overflow-hidden rounded-sm group-hover:opacity-90 transition-opacity">
+                            <div className="relative aspect-video overflow-hidden rounded-sm group-hover:opacity-90 transition-opacity">
                                 <img
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
+                                    className="w-full h-full object-cover grayscale-20 group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
                                 />
                             </div>
 

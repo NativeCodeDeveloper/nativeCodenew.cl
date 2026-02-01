@@ -75,7 +75,7 @@ export default function ServiciosPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                                className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-[400px]"
+                                className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-100"
                             >
                                 {/* Header */}
                                 <div className="space-y-6">

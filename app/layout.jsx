@@ -20,10 +20,12 @@ const michroma = Michroma({
 });
 
 export const metadata = {
-    title: 'Native Code | Crafting Digital Futures',
+    title: 'NativeCode | Desarollo de Software Empresarial',
     description: 'Building the next generation of digital experiences with cutting-edge technology.',
     icons: {
-        icon: '/favicon.ico',
+        icon: '/logos/ico2.png',
+        shortcut: '/logos/ico2.png',
+        apple: '/logos/ico2.png',
     },
 };
 

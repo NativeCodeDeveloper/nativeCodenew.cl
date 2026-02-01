@@ -29,7 +29,7 @@ export default function FeatureGrid() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[rgba(31,34,40)] border-b border-[rgba(31,34,40)]">
 
                 {features.map((feature, index) => (
-                    <div key={index} className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-[400px]">
+                    <div key={index} className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-100">
 
                         {/* Header */}
                         <div className="space-y-6">

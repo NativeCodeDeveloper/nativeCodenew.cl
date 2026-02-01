@@ -1,0 +1,96 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import LightRays from "./LightRays";
+
+export default function InfoSection() {
+    return (
+        <section className="relative bg-black py-32 px-6 overflow-hidden border-t border-[rgba(31,34,40)] min-h-150">
+            
+            {/* LightRays Effect Background */}
+            <div className="absolute inset-0 pointer-events-none z-0">
+                <LightRays
+                    raysOrigin="top-center"
+                    raysColor="#CF9EFF"
+                    raysSpeed={0.8}
+                    lightSpread={0.6}
+                    rayLength={0.7}
+                    followMouse={true}
+                    mouseInfluence={0.1}
+                    noiseAmount={0}
+                    distortion={0}
+                    pulsating={false}
+                    fadeDistance={1}
+                    saturation={1}
+                />
+            </div>
+
+            <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
+                
+                {/* Icon + Title */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                    className="flex items-center justify-center gap-4"
+                >
+                    <div className="w-25 h-35 rounded-full bg-white/0 flex items-center justify-center border border-white/0 p-2">
+                        <img src="/logos/ico2.png" alt="NativeCode" className="w-full h-35 object-contain" />
+                    </div>
+                    <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">
+                        NativeCode
+                    </h2>
+                </motion.div>
+
+                {/* Main subtitle */}
+                <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    className="text-2xl md:text-3xl text-zinc-400 font-light"
+                >
+                    Haz más con NativeCode.
+                </motion.p>
+
+                {/* Description */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    className="space-y-4 text-zinc-500 text-base md:text-lg max-w-2xl mx-auto"
+                >
+                    <p>
+                        Desbloquea una suscripción <span className="text-white font-semibold">NativeCode Pro</span> en NativeCode.cl
+                    </p>
+                    <p>
+                        Acabamos de lanzar <span className="text-white font-semibold">NativeCode Scala</span>, proporcionando
+                        acceso a soluciones empresariales y límites de desarrollo mucho más altos.
+                    </p>
+                </motion.div>
+
+                {/* CTA Button */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: 0.3 }}
+                    className="pt-8"
+                >
+                    <button className="group inline-flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 text-white text-sm font-mono uppercase tracking-widest transition-all">
+                        <span>Comenzar ahora</span>
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </button>
+                </motion.div>
+
+            </div>
+
+            {/* Bottom Fade to Black */}
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-black to-transparent pointer-events-none z-20" />
+
+        </section>
+    );
+}

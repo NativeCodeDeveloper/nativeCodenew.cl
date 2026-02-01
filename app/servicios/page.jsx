@@ -6,13 +6,13 @@ import { ArrowUpRight, Smartphone, Globe, Database, Code2, Zap, Shield } from "l
 const services = [
     {
         icon: Smartphone,
-        title: "Desarrollo Native",
-        description: "Aplicaciones móviles nativas de alto rendimiento que maximizan las capacidades de cada plataforma. React Native & Expo, Swift & SwiftUI para iOS, Kotlin & Jetpack Compose para Android.",
+        title: "Desarrollo NativeCode",
+        description: "Plataformas de desarrollo modernas de alto rendimiento que maximizan las capacidades de cada proyecto.",
     },
     {
         icon: Globe,
         title: "Plataformas Web",
-        description: "Experiencias web modernas, ultrarrápidas y escalables con las últimas tecnologías. Next.js 14+ con App Router, Server Components & Edge Runtime, Progressive Web Apps (PWA).",
+        description: "Experiencias web modernas, ultrarrápidas y escalables que mejeroran la presencia digital de tu negocio.",
     },
     {
         icon: Database,
@@ -22,17 +22,17 @@ const services = [
     {
         icon: Code2,
         title: "Arquitectura de Software",
-        description: "Código limpio, documentado y preparado para crecer sin límites. Clean Architecture & SOLID, Design patterns modernos, Testing automatizado (TDD).",
+        description: "Código limpio, documentado y preparado para crecer sin límites / Clean Architecture & SOLID, Design patterns modernos, Testing automatizado (TDD).",
     },
     {
         icon: Zap,
         title: "Performance & SEO",
-        description: "Optimización exhaustiva para velocidad, visibilidad y conversión. Core Web Vitals perfeccionados, Lighthouse score 100/100, Technical SEO avanzado.",
+        description: "Optimización exhaustiva para velocidad, visibilidad y conversión. / Core Web Vitals perfeccionados, Lighthouse score 100/100, Technical SEO avanzado.",
     },
     {
         icon: Shield,
-        title: "Seguridad & Compliance",
-        description: "Protección integral de datos con las mejores prácticas de la industria. OAuth 2.0 & JWT authentication, Encriptación end-to-end, GDPR & HIPAA compliance.",
+        title: "Seguridad & Complianción",
+        description: "Protección integral de datos con las mejores prácticas de la industria. / OAuth 2.0 & JWT authentication, Encriptación end-to-end, GDPR & HIPAA compliance.",
     }
 ];
 

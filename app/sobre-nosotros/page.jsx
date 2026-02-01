@@ -22,7 +22,7 @@ export default function SobreNosotrosPage() {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-zinc-400 max-w-3xl font-light leading-relaxed"
                     >
-                        Somos un estudio de diseño y desarrollo enfocado en construir el futuro digital de Chile y el mundo.
+                        Somos una agencia de diseño y desarrollo enfocada en construir el futuro web empresarial digital de Chile y el mundo.
                     </motion.p>
                 </header>
 
@@ -37,7 +37,7 @@ export default function SobreNosotrosPage() {
                         <h2 className="text-sm font-mono text-zinc-500 uppercase tracking-[0.3em]">Nuestra Misión</h2>
                         <div className="space-y-4">
                             <p className="text-2xl font-light leading-relaxed text-white">
-                                Democratizar el acceso a la tecnología de punta, creando herramientas que permitan a las empresas competir en un mercado global cada vez más complejo.
+                                Democratizar el acceso a la tecnología de punta, creando herramientas que permitan a las pymes, empresas, consultas particulares y clínicas a competir en un mercado global cada vez más complejo.
                             </p>
                             <p className="text-zinc-400 leading-relaxed font-light">
                                 Creemos que el código no es solo una herramienta, sino un arte que, cuando se ejecuta con precisión, tiene el poder de transformar industrias y mejorar vidas.

@@ -58,7 +58,7 @@ export default function Portfolio() {
                             {/* Content Column */}
                             <div className="flex flex-col h-full justify-between pr-8">
                                 <div>
-                                    <h3 className="text-2xl font-display text-white mb-4 tracking-tight">
+                                    <h3 className="text-2xl font-sans font-medium text-white mb-4 tracking-tight">
                                         {project.title}
                                     </h3>
                                     <p className="text-zinc-400 text-base leading-relaxed font-normal max-w-md">

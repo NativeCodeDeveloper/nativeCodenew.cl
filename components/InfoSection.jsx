@@ -36,7 +36,7 @@ export default function InfoSection() {
                     transition={{ duration: 0.6 }}
                     className="flex items-center justify-center gap-4"
                 >
-                    <div className="w-25 h-35 rounded-full bg-white/0 flex items-center justify-center border border-white/0 p-2">
+                    <div className="w-25 h-35 rounded-full bg-white/0 flex items-center justify-center border border-white/0 p-1">
                         <img src="/logos/ico2.png" alt="NativeCode" className="w-full h-35 object-contain" />
                     </div>
                     <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">

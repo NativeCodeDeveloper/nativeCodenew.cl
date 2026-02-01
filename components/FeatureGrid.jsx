@@ -5,19 +5,19 @@ import { cn } from "@/lib/utils";
 const features = [
     {
         title: "Desarrollo Nativecode",
-        description: "Desarrollamos aplicaciones con React Native y Swift. Optimizadas para interacciones fluidas.",
+        description: "Nuestros desarrollos están diseñados para ofrecer el máximo rendimiento y una experiencia de usuario excepcional.",
         icon: <Code2 size={24} />,
         link: "#services"
     },
     {
         title: "Plataformas Web",
-        description: "Desarrollamos aplicaciones web escalables con Next.js y Vercel. SEO-optimized and globally distributed.",
+        description: "Desarrollamos aplicaciones web escalables. SEO-optimized and globally distributed.",
         icon: <Globe size={24} />,
         link: "#services"
     },
     {
         title: "Ecosistemas integrales",
-        description: "Desarrollamos ecosistemas integrales para tus aplicaciones. Robust API design and cloud infrastructure. Secure, efficient, and ready for scale.",
+        description: "Desarrollamos ecosistemas integrales para tu negocio, integrando diversas plataformas y servicios para maximizar eficiencia y alcance.",
         icon: <Database size={24} />,
         link: "#services"
     }
@@ -26,17 +26,17 @@ const features = [
 export default function FeatureGrid() {
     return (
         <section className="bg-black relative z-20 border-t border-[rgba(31,34,40)]">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[rgba(31,34,40)] border-b border-[rgba(31,34,40)]">
+            <div className="max-w-7xl mx-auto py-24 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[rgba(31,34,40)] border-b border-[rgba(31,34,40)]">
 
                 {features.map((feature, index) => (
-                    <div key={index} className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-100">
+                    <div key={index} className="group relative p-12 transition-colors hover:bg-white/5 flex flex-col justify-between min-h-100 overflow-hidden"> 
 
                         {/* Header */}
-                        <div className="space-y-6">
+                        <div className="space-y-6 relative z-0">
                             <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center text-white border border-[rgba(31,34,40)] group-hover:scale-110 transition-transform duration-300">
                                 {feature.icon}
                             </div>
-                            <h3 className="text-2xl font-bold tracking-tight text-white mb-2 font-display">
+                            <h3 className="text-2xl font-sans font-medium tracking-tight text-white mb-2">
                                 {feature.title}
                             </h3>
                             <p className="text-zinc-400 leading-relaxed text-base">
@@ -45,7 +45,7 @@ export default function FeatureGrid() {
                         </div>
 
                         {/* Action Pill - x.ai style */}
-                        <div className="mt-12 flex items-center justify-between">
+                        <div className="mt-12 flex items-center justify-between relative z-20">
                             <span className="text-xs font-mono uppercase tracking-widest text-zinc-500 group-hover:text-white transition-colors">
                                 Learn more
                             </span>
@@ -67,6 +67,7 @@ export default function FeatureGrid() {
                 ))}
 
             </div>
+            <div className="absolute bottom-0 left-0 right-0 h-90 bg-gradient-to-t from-black to-transparent pointer-events-none z-40" />
         </section>
     );
 }

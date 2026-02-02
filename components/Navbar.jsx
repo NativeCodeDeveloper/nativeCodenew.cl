@@ -17,7 +17,7 @@ export default function Navbar() {
                     <img 
                         src="/logos/ico2.png" 
                         alt="NativeCode" 
-                        className="h-8 object-contain"
+                        className="h-14 w-auto object-contain"
                     />
                 </Link>
 

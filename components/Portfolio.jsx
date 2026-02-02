@@ -74,7 +74,7 @@ export default function Portfolio() {
                                         href={project.link}
                                         className="px-6 py-2 rounded-full border border-[rgba(255,255,255,0.2)] bg-white/5 text-[10px] font-mono text-white tracking-[0.2em] uppercase hover:bg-white hover:text-black transition-all duration-300"
                                     >
-                                        VIEW PROJECT
+                                        VER PROYECTO
                                     </Link>
                                 </div>
                             </div>

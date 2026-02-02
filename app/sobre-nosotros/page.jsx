@@ -75,7 +75,7 @@ export default function SobreNosotrosPage() {
                     viewport={{ once: true }}
                     className="mt-48 pt-24 border-t border-zinc-900 text-center"
                 >
-                    <h2 className="text-3xl font-display mb-8">¿Listo para construir el futuro?</h2>
+                    <h2 className="text-2xl font-display mb-8">¿Listo para construir el futuro?</h2>
                     <a
                         href="https://wa.me/56966091038"
                         target="_blank"

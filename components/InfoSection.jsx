@@ -36,7 +36,7 @@ export default function InfoSection() {
                     transition={{ duration: 0.6 }}
                     className="flex items-center justify-center gap-4"
                 >
-                    <div className="w-25 h-35 rounded-full bg-white/0 flex items-center justify-center border border-white/0 p-1">
+                    <div className="w-25 h-35 rounded-full bg-white/0 flex items-center justify-center border border-white/0 p-2">
                         <img src="/logos/ico2.png" alt="NativeCode" className="w-full h-35 object-contain" />
                     </div>
                     <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white">
@@ -64,11 +64,13 @@ export default function InfoSection() {
                     className="space-y-4 text-zinc-500 text-base md:text-lg max-w-2xl mx-auto"
                 >
                     <p>
-                        Desbloquea una suscripción <span className="text-white font-semibold">NativeCode Pro</span> en NativeCode.cl
+                        Cada proceso manual es tiempo perdido, en <span className="text-white font-semibold">NativeCode</span> creamos soluciones
+                        digitales a la medida que automatizan y optimizan las operaciones de tu negocio, permitiéndote
+                        enfocarte en lo que realmente importa: crecer y prosperar.
                     </p>
                     <p>
-                        Acabamos de lanzar <span className="text-white font-semibold">NativeCode Scala</span>, proporcionando
-                        acceso a soluciones empresariales y límites de desarrollo mucho más altos.
+                        Transformamos procesos manuales al estilo <span className="text-white font-semibold">NativeCode</span>, proporcionando
+                        sistemas digitales claros, eficientes y escalables que impulsan la productividad y la innovación en tu empresa.
                     </p>
                 </motion.div>
 
@@ -80,10 +82,15 @@ export default function InfoSection() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="pt-8"
                 >
-                    <button className="group inline-flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 text-white text-sm font-mono uppercase tracking-widest transition-all">
+                    <a 
+                        href="https://wa.me/56966091038"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 bg-white/5 hover:bg-white/10 text-white text-sm font-mono uppercase tracking-widest transition-all"
+                    >
                         <span>Comenzar ahora</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                    </button>
+                    </a>
                 </motion.div>
 
             </div>

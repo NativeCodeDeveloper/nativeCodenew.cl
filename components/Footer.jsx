@@ -18,7 +18,9 @@ export default function Footer() {
                     {/* Company Info */}
                     <div>
                         <div className="flex items-center gap-3 mb-6">
-                            <img src="/logos/ico2.png" alt="NativeCode" className="w-10 h-10 object-contain" />
+                            <img src="/logos/ico2.png" 
+                            alt="NativeCode" 
+                            className="h-22 object-contain" />
                             <div>
                                 <h3 className="text-lg font-bold tracking-tight">NativeCode</h3>
                                 <p className="text-xs text-zinc-500">Professional Development</p>

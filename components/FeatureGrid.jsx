@@ -10,14 +10,14 @@ const features = [
         link: "#services"
     },
     {
-        title: "Plataformas Web",
-        description: "Desarrollamos aplicaciones web escalables. SEO-optimized and globally distributed.",
+        title: "E-commerce",
+        description: "Desarrollamos E-commerce escalable y optimizado para SEO, con distribución global y soporte técnico.",
         icon: <Globe size={24} />,
         link: "#services"
     },
     {
-        title: "Ecosistemas integrales",
-        description: "Desarrollamos ecosistemas integrales para tu negocio, integrando diversas plataformas y servicios para maximizar eficiencia y alcance.",
+        title: "Ecosistemas médicos integrales",
+        description: "Desarrollamos ecosistemas con agenda médica integrada y gestión de pacientes, todo en una sola plataforma.",
         icon: <Database size={24} />,
         link: "#services"
     }

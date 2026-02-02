@@ -39,7 +39,7 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="w-full flex justify-center"
                 >
-                    <h1 className="text-[10vw] md:text-[8rem] lg:text-[10rem] font-display font-bold tracking-tighter leading-none text-transparent bg-clip-text bg-gradient-to-b from-white via-white/80 to-white/20 select-none drop-shadow-3xl">
+                    <h1 className="text-[10vw] md:text-[8rem] lg:text-[10rem] font-display font-bold tracking-tighter leading-none text-transparent bg-clip-text bg-gradient-to-r from-white/05 via-white/45 to-white/95 select-none drop-shadow-3xl">
                         <strong>NativeCode</strong>
                     </h1>
                 </motion.div>
@@ -49,7 +49,7 @@ export default function Hero() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.3 }}
-                    className="text-lg md:text-xl text-zinc-400 max-w-2xl font-normal leading-relaxed tracking-wide"
+                    className="text-2xl md:text-2xl text-zinc-300 max-w-2xl font-normal leading-relaxed tracking-wide"
                 >
                     Construimos la plataforma que tu negocio necesita.
                 </motion.p>
@@ -82,7 +82,7 @@ export default function Hero() {
                 </motion.div>
 
             </div>
-                <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-black to-transparent pointer-events-none z-20" />
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-black to-transparent pointer-events-none z-20" />
         </section>
     );
 }

@@ -30,9 +30,9 @@ export default function Footer() {
                             Soluciones digitales de alto valor para empresas que buscan excelencia tecnológica.
                         </p>
                         <div className="space-y-2">
-                            <a href="mailto:contacto@nativecode.cl" className="flex items-center gap-2 text-sm text-zinc-500 hover:text-white transition-colors">
+                            <a href="mailto:desarrollo.native.code@gmail.com" className="flex items-center gap-2 text-sm text-zinc-500 hover:text-white transition-colors">
                                 <HiMail className="text-sm" />
-                                <span>contacto@nativecode.cl</span>
+                                <span>desarrollo.native.code@gmail.com</span>
                             </a>
                             <a href="tel:+56966091038" className="flex items-center gap-2 text-sm text-zinc-500 hover:text-white transition-colors">
                                 <HiPhone className="text-sm" />

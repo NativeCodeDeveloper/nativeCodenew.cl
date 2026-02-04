@@ -93,10 +93,10 @@ export default function ServiciosPage() {
                                 {/* Action Pill */}
                                 <div className="mt-12 flex items-center justify-between">
                                     <span className="text-xs font-mono uppercase tracking-widest text-zinc-500 group-hover:text-white transition-colors">
-                                        Learn more
+                                        .
                                     </span>
                                     <button className="flex items-center gap-2 px-4 py-2 rounded-full border border-[rgba(255,255,255,0.15)] bg-white/10 text-xs font-mono uppercase tracking-widest text-white hover:bg-white hover:text-black hover:border-white transition-all duration-300">
-                                        <span>View</span>
+                                        <span>Ver más</span>
                                         <ArrowUpRight size={14} />
                                     </button>
                                 </div>
@@ -123,10 +123,15 @@ export default function ServiciosPage() {
                             Conversemos sobre tu proyecto y cómo podemos ayudarte.
                         </p>
                         <div className="pt-4">
-                            <button className="group inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded text-lg font-semibold hover:bg-zinc-200 transition-all">
+                            <a 
+                                href="https://wa.me/56966091038"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded text-lg font-semibold hover:bg-zinc-200 transition-all"
+                            >
                                 Contactar
                                 <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                            </button>
+                            </a>
                         </div>
                     </motion.div>
                 </div>

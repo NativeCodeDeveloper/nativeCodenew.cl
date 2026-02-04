@@ -4,6 +4,14 @@ import { cn } from "@/lib/utils";
 
 const projects = [
     {
+        date: "FEBRERO 04, 2026",
+        title: "SILUETA CHIC",
+        description: "Plataforma diseñada para gestionar clientes, automatizacion y pasarela de pagos para una clínica de estética.",
+        tag: "WEB DEVELOPMENT",
+        image: "images/silueta.png",
+        link: "https://siluetachic.cl"
+    },
+    {
         date: "ABRIL 01, 2025",
         title: "RUNA JOYAS E-commerce Platform",
         description: "Plataforma de comercio electrónico para la venta de joyas artesanales con integración de pasarelas de pago y gestión de inventario.",
@@ -27,14 +35,6 @@ const projects = [
         image: "images/medify.png",
         link: "https://www.medifyclinic.cl"
     },
-    {
-        date: "ENERO 15, 2026",
-        title: "SUPLETECH",
-        description: "Plataforma diseñada para escalar las ventas de suplementos deportivos.",
-        tag: "WEB DEVELOPMENT",
-        image: "images/suple.png",
-        link: "https://supletech-fronend.vercel.app"
-    }
 ];
 
 export default function Portfolio() {
